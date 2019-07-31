@@ -1,0 +1,41 @@
+{
+  "name": "yd-systemcode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client:dev": "scripty",
+    "client:server": "scripty",
+    "client:porod": "scripty"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/koa": "^2.0.49",
+    "awesome-typescript-loader": "^5.2.1",
+    "awilix": "^4.2.2",
+    "awilix-koa": "^4.0.0",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "html-webpack-plugin": "^3.2.0",
+    "koa": "^2.7.0",
+    "koa-static": "^5.0.0",
+    "koa-swig": "^2.2.1",
+    "koa2-connect-history-api-fallback": "^0.1.2",
+    "react-dom": "^16.8.6",
+    "react-fetch-hook": "^1.6.2",
+    "react-hooks-fetch": "^0.10.0",
+    "react-router-dom": "^5.0.1",
+    "scripty": "^1.9.1",
+    "typescript": "^3.5.2",
+    "webpack": "^4.35.2",
+    "webpack-build-notifier": "^1.0.3",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2",
+    "webpack-merge": "^4.2.1",
+    "yargs-parser": "^13.1.1"
+  },
+  "dependencies": {
+    "react": "^16.8.6"
+  }
+}
